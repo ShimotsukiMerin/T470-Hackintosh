@@ -21,14 +21,14 @@ A comprehensive OpenCore EFI configuration and guide for running macOS on the Le
 * [x] **Audio:** Internal Speakers, Microphone, and Headphone Jack
 * [x] **Power Management:** Proper CPU power states and Battery Status indicator
 * [x] **Sleep / Wake:** Native sleep and wake configurations
-* [x] **Keyboard & Trackpad:** Full gesture support via VoodooI2C / VoodooPS2
+* [x] **Keyboard & Trackpad:** Full gesture support (including TrackPoint) via VoodooI2C / VoodooPS2
 * [x] **Connectivity:** Wi-Fi, Bluetooth, and Ethernet
 * [x] **USB Ports:** All USB 3.0 ports mapped properly
 * [x] **Camera:** Integrated 720p HD Webcam
 
 ### 🔴 Not Working / Work in Progress
-* [ ] **DRM:** Apple TV+ / Netflix HD on Safari (Hardware limitation on iGPU)
-* [ ] **SD Card Reader:** (Depends on kext stability, mark [x] if it works for you)
+* [ ]  **Power Management:** Have some issues with battery drain while in sleep mode
+* [ ]  **Continuity:** Not being able to run AirDrop/Handoff due to lack of native Wifi/Bluetooth card in the configuration. Can fix this problem via using Broadcom cards.
 
 ---
 
